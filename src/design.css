@@ -1,0 +1,73 @@
+
+.inputmargin
+{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
+    display: inline-block;
+    
+  }
+
+  .inputmargin1
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+  }
+ 
+  .margins{
+
+    margin-top:4%;
+  }
+
+  .margins1{
+
+    margin-top:6%;
+  }
+
+  .inputmargin01
+  {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 4%;
+      /*display: grid;*/
+    }
+    .inputmargin02
+  {
+      
+      margin-bottom: 4%;
+      margin-top: 4%;
+      /*display: grid;*/
+    }
+
+    .grid{
+
+    margin-left:2%;
+    margin-top:4%;
+    
+   
+    }
+    
+    .color{
+
+      border:4px;
+      border-color: rgb(0, 238, 255);
+      border-style: dotted;
+      margin-bottom:4%;
+      margin-right:2%
+    
+     
+    }
+
+    .color2{
+
+      border:2px;
+      border-color: rgb(162, 0, 255);
+      border-style: solid;
+      margin-bottom:4%;
+      margin-right:2%;
+      margin-left:2%;
+    
+     
+    }
