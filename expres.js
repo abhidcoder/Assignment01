@@ -3,14 +3,13 @@ const app = express();
 const bodyParser = require('body-parser')
 const port = process.env.PORT || 8005;
 const HandleData = require("./mongodb");
-const middleware = require("./middleware");
 const cors = require('cors');
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }))
 const cookieparser= require("cookie-parser");
 app.use(cookieparser());
-//app.use(cors({ origin: true, credentials: true }));
+
 
 
 const path = require('path')
@@ -39,7 +38,7 @@ app.all("/signup",async(req, res) => {
    });
 
 
-app.all("/login",middleware,async(req, res) => {
+app.all("/login",async(req, res) => {
     const {four,five}=req.body.data
     console.log(req.cookies.ByAbhishekKumarSingh)
     try{
