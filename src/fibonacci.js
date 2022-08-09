@@ -5,12 +5,7 @@ import Cookies from 'js-cookie';
 
 export default function Fibonacci() {
 
-    const Destroy=(e)=> {
-        Cookies.remove('ByAbhishekKumarSingh');
-        window.location.href="http://localhost:3000";
-       }
-      
-    const now = Cookies.get('ByAbhishekKumarSingh');
+   
 
     function One(props) {
         return <div className="text-center" style={{marginTop:"4%",marginRight:"2%",marginLeft:"2%",color:"#800000"}}><h1>{vals} For The Input {props.Fnumber} and {props.Snumber} Once You Click On GET NUMBERS</h1></div>;
